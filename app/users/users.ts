@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import {Http} from 'angular2/http';
 import {ROUTER_DIRECTIVES, RouteParams, RouteConfig} from 'angular2/router';
-import {UserDetail} from "./UserDetail";
+import {UserDetail} from "../userdetail/UserDetail";
 
 @RouteConfig([
   { path: '/detail', component: UserDetail, name: 'UserDetail', useAsDefault: true  }

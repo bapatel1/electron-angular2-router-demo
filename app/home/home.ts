@@ -1,4 +1,4 @@
-// src/Home.ts
+// src/home/Home.ts
 
 import {Component} from 'angular2/core';
 
